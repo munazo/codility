@@ -1,1 +1,1 @@
-Solutions for: https://codility.com/train/
+Solutions for: https://codility.com/programmers/lessons/
