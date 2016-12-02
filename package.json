@@ -1,0 +1,16 @@
+{
+  "name": "codility",
+  "version": "1.0.0",
+  "description": "Codility answers in JS and Ruby.",
+  "main": "index.js",
+  "repository": "https://github.com/munazo/codility.git",
+  "author": "munazo <ayu126@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.7.1"
+  }
+}
