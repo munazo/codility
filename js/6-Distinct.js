@@ -25,7 +25,6 @@ function solution(A) {
       continue;
     }
     result[A[i]] = true;
-    console.log(result);
   }
   return Object.keys(result).length;
 }
