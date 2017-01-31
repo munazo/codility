@@ -17,16 +17,10 @@
 // the function should return 3, because there are 3 distinct values appearing in array A,
 // namely 1, 2 and 3.
 
-
 function solution(A) {
-  let result = {};
-  for (let i = 0, iLen = A.length; i < iLen; i += 1) {
-    if (result.hasOwnProperty(A[i])) {
-      continue;
-    }
-    result[A[i]] = true;
-  }
-  return Object.keys(result).length;
+  return A.filter((item, index) => {
+    return index === A.indexOf(item);
+  }).length;
 }
 
 console.log(solution([2, 1, 1, 2, 3, 1]));
